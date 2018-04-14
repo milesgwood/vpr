@@ -1,0 +1,129 @@
+img, iframe {
+  max-width: 100%; }
+
+.site-logo {
+  max-width: 180px; }
+
+.navbar-toggle {
+  margin-left: auto; }
+
+.vpr-squares-flex {
+  display: flex;
+  justify-content: center; }
+  .vpr-squares-flex .flex-card {
+    width: 25%;
+    text-decoration: none;
+    height: 200px;
+    flex: 1 1 0;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .vpr-squares-flex .flex-card .flex-card-inner {
+      text-align: center;
+      font-size: 30px;
+      padding: 20px;
+      line-height: 35px;
+      font-weight: 600; }
+  .vpr-squares-flex a.flex-card:hover {
+    color: white;
+    background-color: #eb5f0c;
+    border: solid #eb5f0c;
+    cursor: pointer; }
+
+.vpr-squares-flex-1 .flex-card:nth-child(odd) {
+  border-width: 2px;
+  background-color: white;
+  border: solid #eb5f0c;
+  color: #002F6C; }
+.vpr-squares-flex-1 .flex-card:nth-child(even) {
+  border-width: 2px;
+  background-color: #002F6C;
+  border: solid #002F6C;
+  color: white; }
+
+.vpr-squares-flex-2 .flex-card:nth-child(odd) {
+  background-color: #002F6C;
+  border-width: 2px;
+  border: solid #002F6C;
+  color: white; }
+.vpr-squares-flex-2 .flex-card:nth-child(even) {
+  background-color: white;
+  border-width: 2px;
+  border: solid #eb5f0c;
+  color: #002F6C; }
+
+.home-news .row {
+  margin-bottom: 20px;
+  max-height: 257px;
+  overflow: hidden; }
+.home-news .news-img {
+  max-width: 100%;
+  margin-bottom: 10px; }
+.home-news .news-title h5 {
+  margin-top: 0px; }
+.home-news .news-title:hover {
+  color: #eb5f0c;
+  curson: pointer; }
+
+.sidebar-nav a:hover {
+  color: #eb5f0c; }
+
+#home-news div:nth-child(1n+4) {
+  display: none; }
+
+.dotted-border {
+  background: url(https://news.virginia.edu/sites/default/files/dot-horz-org.png) bottom left repeat-x;
+  padding-bottom: 30px; }
+
+.dotted-bottom {
+  background: url(https://news.virginia.edu/sites/default/files/dot-horz-org.png) bottom left repeat-x; }
+
+.dotted-top {
+  background: url(https://news.virginia.edu/sites/default/files/dot-horz-org.png) top left repeat-x;
+  padding-top: 15px; }
+
+.navbar-header a:hover, .uva-header-brand a:hover {
+  text-decoration: none; }
+
+body > div.uva-header-brand.brandbar > div > div > a.pull-right.uva-search > span {
+  display: none; }
+
+.centered {
+  text-align: center; }
+
+#rss_feed {
+  display: none !important; }
+
+a:hover, a:active {
+  color: #eb5f0c; }
+
+.vpr-callout {
+  margin-top: 5px; }
+
+@media (max-width: 900px) {
+  .vpr-squares-flex .flex-card .flex-card-inner {
+    font-size: 25px; } }
+@media (max-width: 767px) {
+  .vpr-site-title {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 15px; } }
+@media (max-width: 767px) {
+  .home-news .row {
+    max-height: unset;
+    overflow: auto; }
+
+  .vpr-squares-flex {
+    flex-direction: column; }
+    .vpr-squares-flex .flex-card {
+      width: 100%;
+      flex: auto;
+      max-width: unset; }
+
+  .vpr-squares-flex-2 {
+    flex-direction: column-reverse; } }
+@media (max-width: 500px) {
+  .vpr-site-title img {
+    width: 100px; } }
